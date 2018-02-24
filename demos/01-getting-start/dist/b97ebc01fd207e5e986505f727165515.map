@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["document","write"],"mappings":"AAAAA,SAASC,KAAT,CAAe,iBAAf","file":"b97ebc01fd207e5e986505f727165515.map","sourcesContent":["document.write('hello parcel!!!')"]}
