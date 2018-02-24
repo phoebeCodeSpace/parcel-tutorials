@@ -1,0 +1,1 @@
+{"version":3,"sources":["ts/message.ts","ts/index.ts"],"names":[],"mappings":";;;ACAA,ADAA,ICAA,IDAA,QCAA,CDAA,IAAe,GCAf,WAAA,ADAA,CCAA;AACA,QAAQ,GAAR,CAAY,UAAA,SAAA,CAAZ","file":"efd90a5d86b93f9f18ac312c403b082f.map","sourcesContent":["export default \"Hello, world\";","import message from \"./message\";\nconsole.log(message);"]}

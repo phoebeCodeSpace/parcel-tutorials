@@ -1,0 +1,32 @@
+{
+  "name": "parcel-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev1": "parcel demos/01-getting-start/index.html -d demos/01-getting-start/dist",
+    "build1": "parcel build demos/01-getting-start/index.html -d demos/01-getting-start/dist",
+    "dev2": "parcel demos/02-assets/src/index.html -d demos/02-assets/dist --no-cache",
+    "build2": "parcel build demos/02-assets/src/index.html -d demos/02-assets/dist --no-minify",
+    "dev3": "parcel demos/03-react/index.html -d demos/03-react/dist",
+    "build3": "parcel build demos/03-react/index.html -d demos/03-react/dist --no-cache",
+    "dev4": "parcel demos/04-vue/index.html -d demos/04-vue/dist",
+    "build4": "parcel build demos/04-vue/index.html -d demos/04-vue/dist --no-cache"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "typescript": "^2.7.2"
+  }
+}
