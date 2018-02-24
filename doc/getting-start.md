@@ -1,4 +1,5 @@
 # [Parcel](https://parceljs.org/) 快速入门
+
 > 极速零配置Web应用打包工具
 
 ## Parcel有什么好处
@@ -10,13 +11,14 @@
 - 友好的错误日志
 
 什么时候使用 Parcel ， Webpack 或 Rollup 呢？
+
 - Parcel：中小型项目（代码行小于 15k）。
 - Webpack：大型以及企业级项目。
 - Rollup：用于 NPM 包。
 
 ## 安装
 
-```
+``` bash
   Yarn:
   yarn global add parcel-bundler
   npm:
@@ -31,7 +33,7 @@
 node version在8+ 才支持，否则将会出现以下报错
 ![](../images/error.png)
 
-```
+``` bash
 Yarn version:
   1.3.2
 
@@ -44,7 +46,7 @@ Platform:
 
 ## 快速开始
 
-```
+``` bash
   yarn init -y
   parcel-bundler --save-dev
 ```
